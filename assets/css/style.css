@@ -171,7 +171,11 @@ html{
     margin-top: 46px;
     /* padding-top: 50% là 50% chiều ngang của chính nó */
     padding-top: 50%;
-    background: url("/w3_band/assets/img/slider/slider1.jpg") top center / cover no-repeat;
+    /* background-image: url("/assets/img/slider/slider1.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; */
+    background: url("/assets/img/slider/slider1.jpg") center / cover no-repeat;
     position: relative;
 }
 
@@ -196,6 +200,11 @@ html{
     font-size: 15px;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bolder;
+}
+
+#content {
+    padding: 64px 16px;
+    margin: 0 35px;
 }
 
 #content .content-section{

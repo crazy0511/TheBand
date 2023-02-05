@@ -153,10 +153,19 @@ html{
     background-color: #ccc;
 }
 
+#header .mobile-menu-btn{
+    float: right;
+    padding: 0 21px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: none;
+}
+
+
 #header .search-btn{
     float: right;
     padding: 0 21px;
-    
 }
 
 #header .search-btn:hover{
@@ -165,10 +174,20 @@ html{
     cursor: pointer;
 }
 
+#header .mobile-menu-btn:hover{
+    background-color: #ccc;
+}
+
+#header .mobile-menu-btn:hover .search-icon{
+    color: #000;
+}
+
+#header .menu-icon, 
 #header .search-icon{
     color: #fff;
     font-size: 20px;
     line-height: 46px;
+    
 }
 
 #slider{
@@ -201,6 +220,7 @@ html{
     font-size: 15px;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bolder;
+    text-shadow: 0 0 2px #000;
 }
 
 #content {
@@ -251,7 +271,7 @@ html{
 }
 
 #content .member-list{
-    margin-top: 48px;
+    margin-top: 32px;
 }
 
 #content .member-item{
@@ -312,7 +332,7 @@ html{
 /* Places */
 .places-list{
     padding-bottom: 48px;
-    margin-top: 32px;
+    margin-top: 16px;
 }
 
 .place-item{
@@ -362,6 +382,7 @@ html{
     /* Không chạm lên phần desc */
     display: inline-block;
     margin-top: 15px;
+    text-align: center;
 }
 
 .place-buy-btn:hover{
@@ -559,3 +580,10 @@ html{
     color: rgba(0, 0, 0, 0.6);
 }
 
+.mt-16{
+    margin-top: 16px;
+}
+
+.mt-32{
+    margin-top: 32px;
+}
